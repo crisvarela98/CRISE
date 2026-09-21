@@ -1,0 +1,6 @@
+{
+  "name": "CRISÉ Pâtisserie",
+  "description": "Tienda online y catálogo de pastelería artesanal CRISÉ Pâtisserie, con gestión de productos en Google Sheets y pedidos por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-script-brand {
+    font-family: 'Dancing Script', cursive;
+  }
+  .font-sans-brand {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121316;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2c38;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f48fb1;
+}
+
